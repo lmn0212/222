@@ -1,0 +1,418 @@
+@media (max-width: 1200px) {
+    .carousel-indicators {
+        bottom: 20px;
+    }
+    
+    #general .jumbotron p:last-of-type {
+        margin-bottom: 40px;
+    }
+    
+    .header .pointer {
+        bottom: 5px;
+        font-size: 1.5em;
+    }
+    
+    #games .row {
+      padding: 3% 0;
+      padding-left: 0;
+    }
+    
+    .page-footer .form-horizontal .control-label {
+        text-align: center;
+    }
+    
+    .page-footer form input[type="email"] {
+    width: 100%;
+    }
+    
+    .page-footer form .form-btn {
+        text-align: right;
+    }
+    
+    #left-scrollbar {
+        height: 365%;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar.navbar-inverse.navbar-fixed-top .navbar-header {
+        float: none;
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        padding: 0 3%;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 0;
+        padding: 0 5%;
+    }
+    .navbar-nav>li {
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 50px;
+    }
+    .navbar-nav>li>a {
+        padding: 8px 15px;
+    }
+    .navbar-inverse .navbar-nav>li>a:hover {
+        color: #ff0000;
+        border: 1px solid #ff0000;
+        background-color: rgba(255, 255, 255, 0.30);
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar.navbar-inverse.navbar-fixed-top .navbar-collapse.collapse,
+    .navbar.navbar-inverse.navbar-fixed-top .collapse.in,
+    .navbar.navbar-inverse.navbar-fixed-top .collapsing {
+        width: 100%;
+        background-color: rgba(20, 20, 20, 0.59);
+    }
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        border: none;
+    }
+    .nav-menu {
+        width: 280px;
+        float: right !important;
+        min-width: auto;
+        background: url("../img/navbar-background.png") no-repeat 50% 50%;
+        background-size: 100% 100%;
+        padding: 3% 0;
+    }
+    .navbar.navbar-inverse.navbar-fixed-top .navbar-logo {
+        display: block;
+        color: #eb2629;
+        font-family: "Bauhaus93";
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .navbar .navbar-brand {
+        height: 40px;
+    }
+    .nav>li {
+        width: 60%;
+        margin: 0 auto;
+        margin-left: 28%;
+    }
+    .nav>li:nth-child(2) {
+        padding-top: 5%;
+    }
+    .messangers,
+    .user-icons {
+        display: none;
+    }
+    
+    .carousel-indicators {
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    #general .jumbotron {
+        top: 35%;
+    }
+    
+    #general .jumbotron h3 {
+        font-size: 3em;
+        margin-top: 10px;
+    }
+    
+    #general .jumbotron .company-name {
+        font-size: 1.1em;
+    }
+    
+    #general .jumbotron .text-center {
+        margin: 0;
+    }
+    
+    #games {
+        padding: 0 30px;
+    }
+    
+    #games .img-sizing {
+        margin-top: 3%;
+    }
+    
+    #news {
+        background-size: 100% 100%;
+    }
+    
+    #news .col-sm-6:nth-child(1),
+    #news .col-sm-6:nth-child(2) {
+        margin-bottom: 2%;
+    }
+    
+     #news .article-footer {
+        border-bottom: 1px solid #4c5457;
+     }
+     
+     .page-footer .row {
+        display: block;
+    }
+    
+    .page-footer .container-fluid .row .col-md-4:first-of-type {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .page-footer form {
+        text-align: center;
+    }
+    
+    .page-footer .form-horizontal .control-label {
+        font-size: 1.4em;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .page-footer form input[type="email"] {
+        width: 65%;
+    }
+    
+    .page-footer form .form-btn {
+        padding: 8px 15px;
+    }
+    
+    .page-footer .contacts {
+        text-align: center;
+    }
+    
+    #left-scrollbar {
+        display: none;
+    }
+    
+    .scrollbar-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 0 10px;
+    }
+    .carousel-indicators {
+        bottom: 1px;
+    }
+    .carousel-indicators li {
+        width: 15px;
+        height: 3px;
+    }
+    .carousel-indicators .active {
+        width: 15px;
+    }
+    #general .jumbotron {
+        top: 70%;
+    }
+    
+    #general .jumbotron .company-center-logo {
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+    }
+    #general .jumbotron h3 {
+        margin: 0;
+        font-size: 1.8em;
+    }
+    
+    #general .jumbotron .company-name {
+        font-size: 0.9em;
+    }
+    
+    #general .jumbotron span {
+        font-size: 0.7em;
+    }
+    #general .jumbotron img {
+        vertical-align: baseline;
+        padding: 0 10px;
+        height: 10px;
+        width: 30px;
+    }
+    #general .jumbotron p:last-of-type {
+        font-size: 0.7em;
+        margin-bottom: 20px;
+    }
+    
+    #general .jumbotron a {
+        display: none;
+        font-size: 1em;
+        padding: 5px 20px;
+    }
+    
+     .header .pointer {
+        display: none;
+     }
+     
+     #adv h2 {
+         font-size: 1.8em;
+     }
+    
+    
+    #adv .adv-positioning {
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        height: 248px;
+    }
+    
+    #adv .adv-positioning img {
+        height: 35px;
+        width: 30px;
+    }
+    
+    #adv .adv-features .col-lg-4.col-sm-6:first-of-type .adv-positioning img {
+        height: 20px;
+    }
+    #adv .adv-features .col-sm-4:first-of-type .adv-positioning {
+        margin-top: 20%;
+    }
+    
+    #adv .adv-features h3 {
+        font-size: 1.5em;
+    }
+    
+    #adv .adv-features p {
+        font-size: 0.9em;
+    }
+    
+    #games {
+        padding: 0 10px;
+    }
+    
+    #games .row {
+        padding: 10px;
+    }
+    
+    #games .row .col-xs-2 {
+        padding: 0;
+        box-sizing: content-box;
+    }
+    
+     #adv .adv-positioning {
+         height: auto;
+         margin-bottom: 20px;
+     }
+     
+    #adv .adv-features .col-sm-6:nth-child(2) .adv-positioning h3 {
+        margin-top: 20px;
+    }
+     
+    #counter h3 {
+        font-size: 1.4em;
+    }
+    
+    #counter p {
+        font-size: 1.1em;
+    }
+    
+    #counter .col-xs-offset-1 {
+        margin-left: 0;
+    }
+    
+    #news {
+        background-image: none;
+        background-color: #222a2d;
+    }
+    
+    #news h2 {
+        font-size: 1.8em;
+    }
+    
+    #news .col-xs-12 {
+        text-align: center;
+    }
+    
+    #news .col-xs-12 img {
+        margin: 0 auto;
+    }
+    
+    #news h3 {
+        font-size: 1.2em;
+    }
+    
+    #news p {
+        font-size: 1em;
+    }
+    
+    #news .article-footer {
+        border-bottom: 1px solid #4c5457;
+        margin-bottom: 5%;
+    }
+    
+    #feedback .user-feedback {
+        width: 90%;
+    }
+    
+    #feedback .user-feedback p {
+        padding: 0 10px;
+    }
+    
+    .page-footer .row {
+        display: block;
+    }
+    
+    .page-footer .container-fluid .row .col-md-4:first-of-type {
+        margin-bottom: 5%;
+        text-align: center;
+    }
+    
+    .page-footer form {
+        text-align: center;
+    }
+    
+    .page-footer .form-horizontal .control-label {
+        font-size: 1.2em;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .page-footer form input[type="email"] {
+        width: 65%;
+    }
+    
+    .page-footer form .form-btn {
+        padding: 8px 15px;
+    }
+    
+    .page-footer .contacts {
+        text-align: center;
+    }
+    
+    /* 
+     #left-scrollbar {
+        display: none;
+    }
+    
+    .scrollbar-nav {
+        display: none;
+    }
+    */
+}

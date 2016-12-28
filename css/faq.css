@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "FuturaDemiC";
+    src: url(../fonts/futurademic.otf);
+}
+
+@font-face {
+    font-family: "Bauhaus93";
+    src: url(../fonts/bauhaus93.ttf);
+}
+
+@font-face {
+    font-family: "Forum-Regular";
+    src: url(../fonts/forum-regular.ttf);
+}
+
+@font-face {
+    font-family: "Forum-Regular";
+    src: url(../fonts/forum-regular.otf);
+}
+
+@font-face {
+    font-family: "Franklin Gothic Demi";
+    src: url(../fonts/franklingothicdemi.ttf);
+}
+
+@font-face {
+    font-family: "AllianceC";
+    src: local('AllianceC'),
+    url(../fonts/alliancec.otf);
+}
+
+@font-face {
+    font-family:'FuturaBookC';
+    src: local('FuturaBookC'),
+    url(../fonts/futurabookc.ttf);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "FuturaDemiC";
+}
+
+.container-fluid {
+    width: 100%;
+    padding:0 99px;
+}
+
+.row {
+    margin: 0;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+}
+
+.navbar {
+    height: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    background-color: rgba(1, 0, 0, 0.58);
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0;
+    padding: 0 99px;
+}
+
+.navbar-header {
+    width: 19%;
+}
+
+.navbar .navbar-brand {
+    padding: 0;
+    line-height: 35px;
+    vertical-align: baseline;
+    margin-left: 0;
+    font-family: "Bauhaus93";
+    font-size: 1.85em;
+}
+
+.navbar-brand>img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-menu {
+    width: 55%;
+    font-size: 1.325em;
+    min-width: 392px;
+}
+
+.messangers {
+    width: 15%;
+    min-width: 100px;
+}
+
+.messangers>li {
+    margin-right: 5%;
+}
+
+.user-icons {
+    min-width: 100px;
+}
+
+.user-icons>li {
+    margin-right: 5%;
+}
+
+.nav>li {
+    margin-left: 3%;
+}
+
+.nav>li:last-child {
+
+}
+
+.nav>li>a {
+    color: #ffffff;
+    padding: 8px 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .nav-menu>li>a:hover {
+    color: #ff0000;
+    border-bottom: 4px solid #ff0000;
+}
+
+
+.navbar-toggle {
+    margin-top: 4px;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top .navbar-logo {
+    display: none;
+}

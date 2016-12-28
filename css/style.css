@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Bauhs93";
+  /* ╨Ш╨╝╤П ╤И╤А╨╕╤Д╤В╨░ */
+  src: url(../faq/css/fonts/bauhs93/BAUHS93.ttf); }
+@font-face {
+  font-family: "Futura_di";
+  /* ╨Ш╨╝╤П ╤И╤А╨╕╤Д╤В╨░ */
+  src: url(../faq/css/fonts/FuturaDemiC-Italic.ttf); }
+* {
+  margin: 0;
+  padding: 0; }
+
+body header {
+  height: 285px;
+  background-image: url("img/?.jpg"); }
+  body header nav {
+    height: 40px;
+    background-color: rgba(5, 5, 5, 0.5); }
+    body header nav .panell {
+      width: 75%;
+      margin: 0 auto; }
+      body header nav .panell #logo {
+        float: left;
+        width: 19%;
+        color: white;
+        line-height: 40px; }
+        body header nav .panell #logo a {
+          margin-right: 20px;
+          line-height: 40px;
+          color: white;
+          font: 20px "bauhs93", sans-serif;
+          text-decoration: none; }
+      body header nav .panell #departments {
+        float: left;
+        width: 46%;
+        list-style-type: none;
+        line-height: 40px; }
+        body header nav .panell #departments li {
+          float: right;
+          padding: 0 23px; }
+          body header nav .panell #departments li a {
+            line-height: 40px;
+            text-decoration: none;
+            color: white;
+            font: 20px "Futura_di", sans-serif; }
+            body header nav .panell #departments li a:hover {
+              padding-bottom: 7px;
+              box-shadow: 0 3px 0 #ff272c;
+              color: #ff272c; }
+      body header nav .panell #social {
+        float: right;
+        list-style-type: none;
+        margin-right: 54px;
+        line-height: 35px; }
+        body header nav .panell #social li {
+          float: left;
+          padding-left: 12px; }
+          body header nav .panell #social li img {
+            width: 20px;
+            height: 20px; }
+      body header nav .panell #misc {
+        float: right;
+        list-style-type: none;
+        line-height: 25px; }
+        body header nav .panell #misc li {
+          padding-left: 10px;
+          float: right; }
+          body header nav .panell #misc li img {
+            width: 13px;
+            height: 13px; }
+
+/*# sourceMappingURL=style.css.map */

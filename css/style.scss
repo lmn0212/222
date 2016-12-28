@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Bauhs93"; /* Имя шрифта */
+  src: url(../faq/css/fonts/bauhs93/BAUHS93.ttf);
+}
+@font-face {
+  font-family: "Futura_di"; /* Имя шрифта */
+  src: url(../faq/css/fonts/FuturaDemiC-Italic.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  header {
+    height: 285px;
+    background-image: url("img/?.jpg");
+    nav {
+      height: 40px;
+      background-color: rgba(5, 5, 5, 0.5);
+      .panell {
+        width: 75%;
+        margin: 0 auto;
+        #logo {
+          float:left;
+          width: 19%;
+          color: rgb(255, 255, 255);
+          line-height: 40px;
+          a {
+            margin-right: 20px;
+            line-height: 40px;
+
+            color: rgb(255, 255, 255);
+            font: 20px "bauhs93", sans-serif;
+            text-decoration: none;
+          }
+        }
+        #departments {
+          float:left;
+          width: 46%;
+          list-style-type: none;
+          line-height: 40px;
+          li {
+            float: right;
+            padding: 0 23px;
+            a {
+              line-height: 40px;
+              text-decoration: none;
+              color: rgb(255, 255, 255);
+              font: 20px "Futura_di", sans-serif;
+              &:hover {
+                padding-bottom: 7px;
+                box-shadow: 0 3px 0 rgb(255, 39, 44);
+                color: rgb(255, 39, 44);
+              }
+            }
+          }
+        }
+        #social {
+          float: right;
+          list-style-type: none;
+          margin-right: 54px;
+          line-height: 35px;
+          li {
+            float: left;
+            padding-left: 12px;
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+        #misc {
+          float:right;
+          list-style-type: none;
+          line-height: 25px;
+          li {
+            padding-left: 10px;
+            float: right;
+            img {
+              width: 13px;
+              height: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
